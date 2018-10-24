@@ -1,0 +1,12 @@
+[user]
+	name = vyashole
+	email = adwait@socialcops.com
+	signingkey = 3302DD51904FC7E8
+[gc]
+	autoDetach = false
+[pull]
+	rebase = true
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg2

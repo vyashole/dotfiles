@@ -1,0 +1,22 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "'Blackfont'",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.statusBar.feedback.visible": false,
+    "[mongo]": {
+        
+    },
+    "python.venvPath": "/home/vyashole/.virtualenv",
+    "gitlens.historyExplorer.enabled": true,
+    "files.associations": {
+        "*.tpl": "html"
+    },
+    "editor.cursorStyle": "line",
+    "python.pythonPath": "/home/vyashole/.virtualenv/toolbox/bin/python",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false
+}
