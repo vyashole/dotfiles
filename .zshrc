@@ -127,3 +127,5 @@ export LC_ALL=en_US.UTF-8
 source /home/vyashole/.local/bin/aws_zsh_completer.sh
 source /home/vyashole/.local/bin/aws_zsh_completer.sh
 alias git=hub
+fpath=(~/.zsh/completions $fpath) 
+autoload -U compinit && compinit
