@@ -41,4 +41,4 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 xhost SI:localuser:root >/dev/null 2>&1
 export GOPATH=/home/vyashole/gopath/
-export GPG_TTY=/dev/pts/9
+export GPG_TTY=$(tty)
