@@ -118,7 +118,7 @@ alias 'unzip-all=for z in *.zip; do unzip $z -d ${z%.*}/; done'
 export PATH="/home/vyashole/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
-
+alias 'gimme=sudo apt update && sudo apt install -y'
 
 export LAN=Gen_US.UTF-8
 export LC_ALL=en_US.UTF-8
