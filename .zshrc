@@ -129,3 +129,4 @@ source /home/vyashole/.local/bin/aws_zsh_completer.sh
 alias git=hub
 fpath=(~/.zsh/completions $fpath) 
 autoload -U compinit && compinit
+alias isotoday='date "+%Y-%m-%d"'
