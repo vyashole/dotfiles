@@ -93,10 +93,6 @@ export NVM_DIR="/home/vyashole/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 . /etc/zsh_command_not_found
-***REMOVED***
-
-***REMOVED***
-
 
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 
