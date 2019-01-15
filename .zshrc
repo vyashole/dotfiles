@@ -87,7 +87,7 @@ source $ZSH/oh-my-zsh.sh
 
 fortune | cowsay
 alias 'update=sudo apt -y update && sudo apt -y full-upgrade && sudo apt -y autoclean'
-alias simpleHttpServer='python -m SimpleHTTPServer'
+alias simpleHttpServer='python3 -m http.server'
 
 export NVM_DIR="/home/vyashole/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -96,13 +96,9 @@ export NVM_DIR="/home/vyashole/.nvm"
 
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 
-export MONGODB_URI=mongodb://192.168.1.21:27017/collect-local
-
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
 . /usr/local/bin/virtualenvwrapper.sh
-***REMOVED***
-source ~/.profile
 
 export WORKON_HOME=/home/vyashole/.virtualenv
 alias workoff=deactivate
@@ -122,6 +118,7 @@ export LC_ALL=en_US.UTF-8
 
 source /home/vyashole/.local/bin/aws_zsh_completer.sh
 source /home/vyashole/.local/bin/aws_zsh_completer.sh
+
 alias git=hub
 fpath=(~/.zsh/completions $fpath) 
 autoload -U compinit && compinit
