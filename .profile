@@ -16,6 +16,8 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 fi
 
+xhost SI:localuser:root >/dev/null 2>&1
+
 export LANG="en_US.UTF-8"
 export LANGUAGE="en_US:en"
 export LC_CTYPE="en_US.UTF-8"
@@ -33,12 +35,9 @@ export LC_IDENTIFICATION="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
 # set PATH so it includes user's private bin directories
-PATH="$HOME/flutter/bin:$HOME/Android/Sdk/platform-tools:$HOME/Android/Sdk/tools:$HOME/bin:$HOME/.local/bin:$PATH"
-LANG=en_US.UTF-8
-WORKON_HOME="~/.virtualenv"
-VISUAL=vim
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8
-xhost SI:localuser:root >/dev/null 2>&1
+export PATH="$HOME/flutter/bin:$HOME/Android/Sdk/platform-tools:$HOME/Android/Sdk/tools:$HOME/bin:$HOME/.local/bin:$PATH"
+export VISUAL=vim
+export EDITOR=vim
 export GOPATH=/home/vyashole/gopath/
 export GPG_TTY=$(tty)
+
