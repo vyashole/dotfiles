@@ -1,7 +1,7 @@
 [user]
 	name = vyashole
 	email = adwait@socialcops.com
-	signingkey = 3302DD51904FC7E8
+	signingkey = 6783D046842D9CED
 [gc]
 	autoDetach = false
 [pull]
@@ -9,7 +9,7 @@
 [commit]
 	gpgsign = true
 [gpg]
-	program = gpg2
+	program = gpg
 [push]
 	default = simple
 [filter "lfs"]
