@@ -1,3 +1,5 @@
+fortune | cowsay
+
 eval $(thefuck --alias)
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -85,7 +87,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-fortune | cowsay
 alias 'update=sudo apt -y update && sudo apt -y full-upgrade && sudo apt -y autoclean'
 alias simpleHttpServer='python3 -m http.server'
 
@@ -116,7 +117,6 @@ export LAN=Gen_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 
-source /home/vyashole/.local/bin/aws_zsh_completer.sh
 source /home/vyashole/.local/bin/aws_zsh_completer.sh
 
 alias git=hub
