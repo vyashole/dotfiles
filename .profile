@@ -16,7 +16,6 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 fi
 
-xhost SI:localuser:root >/dev/null 2>&1
 
 export LANG="en_US.UTF-8"
 export LANGUAGE="en_US:en"
@@ -41,3 +40,4 @@ export EDITOR=vim
 export GOPATH=/home/vyashole/gopath/
 export GPG_TTY=$(tty)
 
+xhost SI:localuser:root >/dev/null 2>&1
