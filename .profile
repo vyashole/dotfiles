@@ -39,5 +39,5 @@ export VISUAL=vim
 export EDITOR=vim
 export GOPATH=/home/vyashole/gopath/
 export GPG_TTY=$(tty)
-
+export QT_QPA_PLATFORMTHEME=gtk2
 xhost SI:localuser:root >/dev/null 2>&1
