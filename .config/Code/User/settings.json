@@ -21,5 +21,6 @@
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
-    "telemetry.enableTelemetry": false
+    "telemetry.enableTelemetry": false,
+    "window.titleBarStyle": "native"
 }
