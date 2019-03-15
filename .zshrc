@@ -124,3 +124,4 @@ fpath=(~/.zsh/completions $fpath)
 autoload -U compinit && compinit
 alias isotoday='date "+%Y-%m-%d"'
 alias bfg=java -jar ~/.local/bin/bfg.jar
+alias cat=bat
