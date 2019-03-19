@@ -125,3 +125,4 @@ autoload -U compinit && compinit
 alias isotoday='date "+%Y-%m-%d"'
 alias bfg=java -jar ~/.local/bin/bfg.jar
 alias cat=bat
+alias utcnow='date +%Y-%m-%dT%H:%M:%SZ -u'
