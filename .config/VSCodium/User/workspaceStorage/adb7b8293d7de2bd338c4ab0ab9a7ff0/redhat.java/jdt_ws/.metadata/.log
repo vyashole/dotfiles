@@ -1,0 +1,69 @@
+!SESSION 2019-03-28 13:41:23.932 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/vyashole/.config/Code/User/workspaceStorage/adb7b8293d7de2bd338c4ab0ab9a7ff0/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:26.398
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:26.551
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:26.579
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:26.581
+!MESSAGE Initializing Java Language Server 0.35.0.201903150009
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:26.593
+!MESSAGE Installed reference:file:/home/vyashole/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.1.5/dist/com.microsoft.jdtls.intellicode.core-0.3.12.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:26.596
+!MESSAGE Installed reference:file:/home/vyashole/.vscode/extensions/vscjava.vscode-java-debug-0.17.0/server/com.microsoft.java.debug.plugin-0.17.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:26.599
+!MESSAGE Installed reference:file:/home/vyashole/.vscode/extensions/vscjava.vscode-java-dependency-0.3.0/server/com.microsoft.jdtls.ext.core-0.3.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:26.601
+!MESSAGE Installed reference:file:/home/vyashole/.vscode/extensions/vscjava.vscode-java-test-0.15.1/server/com.microsoft.java.test.plugin-0.15.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:26.652
+!MESSAGE Started reference:file:/home/vyashole/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.1.5/dist/com.microsoft.jdtls.intellicode.core-0.3.12.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:26.652
+!MESSAGE Started reference:file:/home/vyashole/.vscode/extensions/vscjava.vscode-java-debug-0.17.0/server/com.microsoft.java.debug.plugin-0.17.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:26.653
+!MESSAGE Started reference:file:/home/vyashole/.vscode/extensions/vscjava.vscode-java-dependency-0.3.0/server/com.microsoft.jdtls.ext.core-0.3.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:26.653
+!MESSAGE Started reference:file:/home/vyashole/.vscode/extensions/vscjava.vscode-java-test-0.15.1/server/com.microsoft.java.test.plugin-0.15.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:26.668
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:26.683
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:27.156
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:27.439
+!MESSAGE Workspace initialized in 848ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:27.524
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:27.526
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:27.544
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false, useBlocks=false, generateComments=false}}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=true, showQualifiedNames=false, maxStringLength=0.0, enableHotCodeReplace=true, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true}}, dependency={showOutline=true, syncWithFolderExplorer=true, packagePresentation=flat}, test={report={position=sideView}, log={level=info}, message={hintForDeprecatedConfig=true, hintForSetingDefaultConfig=true}, defaultConfig=, config={}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:27.899
+!MESSAGE >> workspace/executeCommand vscode.java.test.get.testpath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-03-28 13:41:29.425
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.items
