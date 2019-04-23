@@ -126,7 +126,7 @@ alias isotoday='date "+%Y-%m-%d"'
 alias bfg=java -jar ~/.local/bin/bfg.jar
 alias cat=bat
 alias utcnow='date +%Y-%m-%dT%H:%M:%SZ -u'
-
+alias pbcopy='xclip -selection c'
 PATH="/home/vyashole/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/vyashole/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="/home/vyashole/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
