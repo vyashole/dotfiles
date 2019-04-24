@@ -1,6 +1,4 @@
 fortune | cowsay
-
-eval $(thefuck --alias)
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -56,7 +54,7 @@ ZSH_THEME="blokkzh"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git virtualenv nvm adb kubectl zsh-syntax-highlighting)
 
-source $ZSH/oh-my-zsh.sh
+. $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -87,9 +85,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias 'update=sudo apt -y update && sudo apt -y full-upgrade && sudo apt -y autoclean'
-alias simpleHttpServer='python3 -m http.server'
-
 export NVM_DIR="/home/vyashole/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
@@ -102,33 +97,30 @@ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 . /usr/local/bin/virtualenvwrapper.sh
 
 export WORKON_HOME=/home/vyashole/.virtualenv
-alias workoff=deactivate
 
-export PATH=$PATH:/usr/local/go/bin
+export PATH="/usr/local/go/bin:$PATH"
 
-alias 'unzip-all=for z in *.zip; do unzip $z -d ${z%.*}/; done'
+
 
 export PATH="/home/vyashole/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
-alias 'gimme=sudo apt update && sudo apt install -y'
+
 
 export LAN=Gen_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 
-source /home/vyashole/.local/bin/aws_zsh_completer.sh
+. /home/vyashole/.local/bin/aws_zsh_completer.sh
 
-alias git=hub
+
 fpath=(~/.zsh/completions $fpath) 
 autoload -U compinit && compinit
-alias isotoday='date "+%Y-%m-%d"'
-alias bfg=java -jar ~/.local/bin/bfg.jar
-alias cat=bat
-alias utcnow='date +%Y-%m-%dT%H:%M:%SZ -u'
-alias pbcopy='xclip -selection c'
+
 PATH="/home/vyashole/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/vyashole/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
 PERL_LOCAL_LIB_ROOT="/home/vyashole/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/home/vyashole/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/vyashole/perl5"; export PERL_MM_OPT;
+
+. ~/.zsh_aliases

@@ -1,0 +1,20 @@
+# fuck
+eval $(thefuck --alias)
+
+# apt
+alias 'update=sudo apt -y update && sudo apt -y full-upgrade && sudo apt -y autoclean'
+alias 'gimme=sudo apt update && sudo apt install -y'
+
+# python
+alias 'simpleHttpServer=python3 -m http.server'
+alias 'workoff=deactivate'
+
+# misc
+alias 'unzip-all=for z in *.zip; do unzip $z -d ${z%.*}/; done'
+alias 'git=hub'
+alias 'isotoday=date "+%Y-%m-%d"'
+alias 'bfg=java -jar ~/.local/bin/bfg.jar'
+alias 'cat=bat'
+alias 'utcnow=date +%Y-%m-%dT%H:%M:%SZ -u'
+alias 'pbcopy=xclip -selection c'
+alias 'code=vscodium'
