@@ -3,7 +3,7 @@ fortune | cowsay
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/vyashole/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -85,7 +85,7 @@ plugins=(git virtualenv nvm adb kubectl zsh-syntax-highlighting)
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export NVM_DIR="/home/vyashole/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 . /etc/zsh_command_not_found
@@ -96,13 +96,13 @@ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
 . /usr/local/bin/virtualenvwrapper.sh
 
-export WORKON_HOME=/home/vyashole/.virtualenv
+export WORKON_HOME=$HOME/.virtualenv
 
 export PATH="/usr/local/go/bin:$PATH"
 
 
 
-export PATH="/home/vyashole/.pyenv/bin:$PATH"
+export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
@@ -111,16 +111,16 @@ export LAN=Gen_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 
-. /home/vyashole/.local/bin/aws_zsh_completer.sh
+. $HOME/.local/bin/aws_zsh_completer.sh
 
 
 fpath=(~/.zsh/completions $fpath) 
 autoload -U compinit && compinit
 
-PATH="/home/vyashole/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/vyashole/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/vyashole/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/vyashole/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/vyashole/perl5"; export PERL_MM_OPT;
+PATH="$HOME/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="$HOME/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="$HOME/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"$HOME/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 
 . ~/.zsh_aliases
