@@ -25,5 +25,6 @@
     "window.titleBarStyle": "native",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.jediEnabled": false
+    "python.jediEnabled": false,
+    "workbench.colorTheme": "Ayu Mirage"
 }
