@@ -52,7 +52,7 @@ ZSH_THEME="blokkzh"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git virtualenv nvm adb kubectl zsh-syntax-highlighting)
+plugins=(git virtualenv nvm adb kubectl zsh-syntax-highlighting zsh-completions)
 
 . $ZSH/oh-my-zsh.sh
 
@@ -111,11 +111,9 @@ export LAN=Gen_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 
-autoload -Uz compinit && compinit
-. $HOME/.local/bin/aws_zsh_completer.sh
-kitty + complete setup zsh | source /dev/stdin
-
 fpath=(~/.zsh/completions $fpath) 
+. $HOME/.local/bin/aws_zsh_completer.sh
+autoload -Uz compinit && compinit
 
 PATH="$HOME/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="$HOME/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
