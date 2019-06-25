@@ -28,5 +28,5 @@
     "python.jediEnabled": false,
     "workbench.startupEditor": "newUntitledFile",
     "git.autofetch": true,
-    "workbench.colorTheme": "Ayu Dark"
+    "workbench.colorTheme": "Darcula"
 }
