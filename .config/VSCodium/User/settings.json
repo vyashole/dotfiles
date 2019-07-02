@@ -28,5 +28,7 @@
     "python.jediEnabled": false,
     "workbench.startupEditor": "newUntitledFile",
     "git.autofetch": true,
-    "workbench.colorTheme": "Darcula"
+    "workbench.colorTheme": "Darcula",
+    "generateUuid.uuidType": "uuidv4",
+    "[es]": {}
 }
