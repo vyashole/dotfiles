@@ -1,7 +1,7 @@
 #! /bin/bash
 set -eo pipefail
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF
-sudo add-apt-repository -y "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add -
+echo 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list
 sudo apt update
-sudo apt -y install code
-cat ~/.vscode_extensions | xargs -I {} code --install-extension {}
+sudo apt -y install codium
+cat ~/.vscode_extensions | xargs -I {} codium --install-extension {}
