@@ -122,3 +122,14 @@ PERL_MB_OPT="--install_base \"$HOME/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 
 . ~/.aliases
+
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /home/vyashole/.nvm/versions/node/v12.3.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/vyashole/.nvm/versions/node/v12.3.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /home/vyashole/.nvm/versions/node/v12.3.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /home/vyashole/.nvm/versions/node/v12.3.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[[ -f /home/vyashole/.nvm/versions/node/v12.3.0/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh ]] && . /home/vyashole/.nvm/versions/node/v12.3.0/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh
