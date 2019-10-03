@@ -52,7 +52,7 @@ ZSH_THEME="blokkzh"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git virtualenv nvm adb kubectl zsh-syntax-highlighting zsh-completions aws docker zsh_reload zsh-navigation-tools github zsh-256color colored-man-pages)
+plugins=(git virtualenv nvm adb kubectl zsh-syntax-highlighting zsh-completions aws docker zsh_reload zsh-navigation-tools github zsh-256color colored-man-pages zsh-autosuggestions)
 
 . $ZSH/oh-my-zsh.sh
 
@@ -133,3 +133,6 @@ PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 # tabtab source for slss package
 # uninstall by removing these lines or running `tabtab uninstall slss`
 [[ -f /home/vyashole/.nvm/versions/node/v12.3.0/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh ]] && . /home/vyashole/.nvm/versions/node/v12.3.0/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.zsh
+
+. ~/kube-ps1/kube-ps1.sh
+PROMPT=$PROMPT'$(kube_ps1)'
