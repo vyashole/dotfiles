@@ -34,10 +34,10 @@ export LC_IDENTIFICATION="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
 # set PATH so it includes user's private bin directories
-export PATH="$HOME/flutter/bin:$HOME/Android/Sdk/platform-tools:$HOME/Android/Sdk/tools:$HOME/Android/Sdk/build-tools/28.0.3:$HOME/bin:$HOME/.local/bin:$PATH"
 export VISUAL=vim
 export EDITOR=vim
 export GOPATH=/home/vyashole/gopath/
+export PATH="$GOPATH/bin:$HOME/flutter/bin:$HOME/Android/Sdk/platform-tools:$HOME/Android/Sdk/tools:$HOME/Android/Sdk/build-tools/28.0.3:$HOME/bin:$HOME/.local/bin:$PATH"
 export GPG_TTY=$(tty)
 export QT_QPA_PLATFORMTHEME=gtk2
 xhost SI:localuser:root >/dev/null 2>&1
